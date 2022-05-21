@@ -13,4 +13,9 @@ describe('Testing our Multiplication', () => {
     it('should multiply 2 with 2 to get 4', () => {
         assert.equal(multiply(2, 2), 4);
     });
+
+    //  Green:  pass the test
+    it('should multiply 3 with 3 to get 9', () => {
+        assert.equal(multiply(3, 3), 9);
+    });
 });
