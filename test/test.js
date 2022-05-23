@@ -5,6 +5,8 @@ const assert = require('chai').assert;
 const multiply = require('../multiply');
 
 describe('Testing our Multiplication', () => {
+  // null; - testing other cases
+  // Red: failing test
   it('should multiply two numbers', () => {
     assert.equal(multiply(1, 1), 1);
   });
